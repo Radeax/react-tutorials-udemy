@@ -21,7 +21,6 @@ const App = () => {
     activeIndex: 1,
   });
 
-  console.log(state.title);
   return (
     <div>
       <Accordion items={items} />
